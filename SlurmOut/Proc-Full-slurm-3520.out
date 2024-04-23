@@ -1,0 +1,641 @@
+/home/jcram/Projects/Hatchery2021_ProcAmplicons
+here() starts at /home/jcram/Projects/Hatchery2021_ProcAmplicons
+[1] "Running 00_Rename_Inator.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: Rcpp
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+On sample: C_5P1B_0P2
+On sample: C_5P1B_180
+On sample: C_5P1B_1P2
+On sample: C_5P1B_20
+On sample: C_5P1B_5
+On sample: C_5P1B_500
+On sample: C_5P1B_53
+On sample: C4
+On sample: C5
+On sample: C6
+On sample: H12
+On sample: H138
+On sample: H141
+On sample: H144
+On sample: H148
+On sample: H15
+On sample: H152
+On sample: H158
+On sample: H187
+On sample: H192
+On sample: H195
+On sample: H196
+On sample: H203
+On sample: H205
+On sample: H206
+On sample: H207
+On sample: H208
+On sample: H209
+On sample: H210
+On sample: H211
+On sample: H212
+On sample: H213
+On sample: H219
+On sample: H220
+On sample: H221
+On sample: H222
+On sample: H223
+On sample: H224
+On sample: H225
+On sample: H226
+On sample: H227
+On sample: H229
+On sample: H230
+On sample: H236
+On sample: H237
+On sample: H242
+On sample: H255
+On sample: H256
+On sample: H259
+On sample: H300
+On sample: H303
+On sample: H31
+On sample: H34
+On sample: H35
+On sample: H40
+On sample: H41
+On sample: H46
+On sample: H48
+On sample: H57
+On sample: H58
+On sample: H63
+On sample: H66
+On sample: H83
+On sample: H91
+On sample: H94
+On sample: XA
+On sample: XB
+On sample: XC
+On sample: XD
+On sample: XE
+On sample: XF
+On sample: XG
+On sample: XH
+On sample: XI
+On sample: XJ
+On sample: XK
+On sample: XL
+On sample: XM
+[1] "Running PlotQuality.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+There were 50 or more warnings (use warnings() to see the first 50)
+[1] "Running 02_FilterTrim_Inator.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] "Running LearnErrors.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+113072220 total bases in 418786 reads from 7 samples will be used for learning the error rates.
+106505000 total bases in 532525 reads from 9 samples will be used for learning the error rates.
+[1] "total time to learn errors"
+   user  system elapsed 
+556.719  21.674 126.636 
+[1] "Running 04_Dereplicate_Inator.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] "total time to learn dereplicate"
+   user  system elapsed 
+100.212   9.242 109.758 
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Sample 1 - 50472 reads in 19519 unique sequences.
+Sample 2 - 47810 reads in 19408 unique sequences.
+Sample 3 - 60031 reads in 26229 unique sequences.
+Sample 4 - 58846 reads in 29769 unique sequences.
+Sample 5 - 59924 reads in 26299 unique sequences.
+Sample 6 - 44195 reads in 18852 unique sequences.
+Sample 7 - 47556 reads in 19293 unique sequences.
+Sample 8 - 935 reads in 433 unique sequences.
+Sample 9 - 2206 reads in 927 unique sequences.
+Sample 10 - 2054 reads in 856 unique sequences.
+Sample 11 - 43783 reads in 7557 unique sequences.
+Sample 12 - 76841 reads in 11501 unique sequences.
+Sample 13 - 71454 reads in 10638 unique sequences.
+Sample 14 - 69662 reads in 10713 unique sequences.
+Sample 15 - 63160 reads in 9874 unique sequences.
+Sample 16 - 49915 reads in 9011 unique sequences.
+Sample 17 - 28146 reads in 5106 unique sequences.
+Sample 18 - 51534 reads in 8214 unique sequences.
+Sample 19 - 33595 reads in 6028 unique sequences.
+Sample 20 - 71727 reads in 11351 unique sequences.
+Sample 21 - 50930 reads in 7579 unique sequences.
+Sample 22 - 61699 reads in 9432 unique sequences.
+Sample 23 - 65831 reads in 10215 unique sequences.
+Sample 24 - 65435 reads in 10712 unique sequences.
+Sample 25 - 66045 reads in 10332 unique sequences.
+Sample 26 - 32989 reads in 5476 unique sequences.
+Sample 27 - 46349 reads in 9272 unique sequences.
+Sample 28 - 50207 reads in 9269 unique sequences.
+Sample 29 - 28922 reads in 5123 unique sequences.
+Sample 30 - 51623 reads in 8673 unique sequences.
+Sample 31 - 46736 reads in 7717 unique sequences.
+Sample 32 - 53799 reads in 15068 unique sequences.
+Sample 33 - 87795 reads in 23640 unique sequences.
+Sample 34 - 48422 reads in 10072 unique sequences.
+Sample 35 - 31320 reads in 10990 unique sequences.
+Sample 36 - 29875 reads in 6105 unique sequences.
+Sample 37 - 15493 reads in 3032 unique sequences.
+Sample 38 - 100264 reads in 23031 unique sequences.
+Sample 39 - 66083 reads in 17707 unique sequences.
+Sample 40 - 94435 reads in 21330 unique sequences.
+Sample 41 - 122786 reads in 20834 unique sequences.
+Sample 42 - 131809 reads in 44153 unique sequences.
+Sample 43 - 65303 reads in 11190 unique sequences.
+Sample 44 - 83022 reads in 14005 unique sequences.
+Sample 45 - 170770 reads in 52789 unique sequences.
+Sample 46 - 59323 reads in 9488 unique sequences.
+Sample 47 - 118622 reads in 18137 unique sequences.
+Sample 48 - 91097 reads in 13134 unique sequences.
+Sample 49 - 68505 reads in 13717 unique sequences.
+Sample 50 - 50053 reads in 7891 unique sequences.
+Sample 51 - 56090 reads in 9258 unique sequences.
+Sample 52 - 40633 reads in 6849 unique sequences.
+Sample 53 - 67872 reads in 10094 unique sequences.
+Sample 54 - 48642 reads in 8146 unique sequences.
+Sample 55 - 68331 reads in 10577 unique sequences.
+Sample 56 - 74088 reads in 10865 unique sequences.
+Sample 57 - 56776 reads in 9666 unique sequences.
+Sample 58 - 48566 reads in 8019 unique sequences.
+Sample 59 - 48797 reads in 17135 unique sequences.
+Sample 60 - 47206 reads in 10126 unique sequences.
+Sample 61 - 69008 reads in 11761 unique sequences.
+Sample 62 - 43938 reads in 8187 unique sequences.
+Sample 63 - 47221 reads in 7573 unique sequences.
+Sample 64 - 42453 reads in 8020 unique sequences.
+Sample 65 - 38292 reads in 7632 unique sequences.
+Sample 66 - 65574 reads in 14281 unique sequences.
+Sample 67 - 61822 reads in 11291 unique sequences.
+Sample 68 - 62513 reads in 13030 unique sequences.
+Sample 69 - 99772 reads in 25221 unique sequences.
+Sample 70 - 136703 reads in 28607 unique sequences.
+Sample 71 - 136316 reads in 27713 unique sequences.
+Sample 72 - 62508 reads in 13206 unique sequences.
+Sample 73 - 50907 reads in 11516 unique sequences.
+Sample 74 - 81235 reads in 14403 unique sequences.
+Sample 75 - 72634 reads in 14499 unique sequences.
+Sample 76 - 62046 reads in 12928 unique sequences.
+Sample 77 - 92756 reads in 20419 unique sequences.
+Sample 78 - 72494 reads in 13359 unique sequences.
+
+   selfConsist step 2Sample 1 - 50472 reads in 20643 unique sequences.
+Sample 2 - 47810 reads in 19329 unique sequences.
+Sample 3 - 60031 reads in 27354 unique sequences.
+Sample 4 - 58846 reads in 30654 unique sequences.
+Sample 5 - 59924 reads in 26985 unique sequences.
+Sample 6 - 44195 reads in 18585 unique sequences.
+Sample 7 - 47556 reads in 19275 unique sequences.
+Sample 8 - 935 reads in 427 unique sequences.
+Sample 9 - 2206 reads in 856 unique sequences.
+Sample 10 - 2054 reads in 860 unique sequences.
+Sample 11 - 43783 reads in 6445 unique sequences.
+Sample 12 - 76841 reads in 9922 unique sequences.
+Sample 13 - 71454 reads in 8877 unique sequences.
+Sample 14 - 69662 reads in 10035 unique sequences.
+Sample 15 - 63160 reads in 8604 unique sequences.
+Sample 16 - 49915 reads in 7710 unique sequences.
+Sample 17 - 28146 reads in 4764 unique sequences.
+Sample 18 - 51534 reads in 6884 unique sequences.
+Sample 19 - 33595 reads in 5470 unique sequences.
+Sample 20 - 71727 reads in 9265 unique sequences.
+Sample 21 - 50930 reads in 6032 unique sequences.
+Sample 22 - 61699 reads in 8362 unique sequences.
+Sample 23 - 65831 reads in 8600 unique sequences.
+Sample 24 - 65435 reads in 9239 unique sequences.
+Sample 25 - 66045 reads in 8489 unique sequences.
+Sample 26 - 32989 reads in 4567 unique sequences.
+Sample 27 - 46349 reads in 7711 unique sequences.
+Sample 28 - 50207 reads in 8644 unique sequences.
+Sample 29 - 28922 reads in 4242 unique sequences.
+Sample 30 - 51623 reads in 7671 unique sequences.
+Sample 31 - 46736 reads in 7021 unique sequences.
+Sample 32 - 53799 reads in 13319 unique sequences.
+Sample 33 - 87795 reads in 20566 unique sequences.
+Sample 34 - 48422 reads in 9130 unique sequences.
+Sample 35 - 31320 reads in 10607 unique sequences.
+Sample 36 - 29875 reads in 5320 unique sequences.
+Sample 37 - 15493 reads in 2563 unique sequences.
+Sample 38 - 100264 reads in 22202 unique sequences.
+Sample 39 - 66083 reads in 18153 unique sequences.
+Sample 40 - 94435 reads in 19874 unique sequences.
+Sample 41 - 122786 reads in 18568 unique sequences.
+Sample 42 - 131809 reads in 43104 unique sequences.
+Sample 43 - 65303 reads in 10963 unique sequences.
+Sample 44 - 83022 reads in 13287 unique sequences.
+Sample 45 - 170770 reads in 54643 unique sequences.
+Sample 46 - 59323 reads in 9544 unique sequences.
+Sample 47 - 118622 reads in 15489 unique sequences.
+Sample 48 - 91097 reads in 10932 unique sequences.
+Sample 49 - 68505 reads in 13052 unique sequences.
+Sample 50 - 50053 reads in 7233 unique sequences.
+Sample 51 - 56090 reads in 7657 unique sequences.
+Sample 52 - 40633 reads in 5894 unique sequences.
+Sample 53 - 67872 reads in 8887 unique sequences.
+Sample 54 - 48642 reads in 7283 unique sequences.
+Sample 55 - 68331 reads in 9025 unique sequences.
+Sample 56 - 74088 reads in 9293 unique sequences.
+Sample 57 - 56776 reads in 8226 unique sequences.
+Sample 58 - 48566 reads in 6597 unique sequences.
+Sample 59 - 48797 reads in 16899 unique sequences.
+Sample 60 - 47206 reads in 9342 unique sequences.
+Sample 61 - 69008 reads in 10067 unique sequences.
+Sample 62 - 43938 reads in 7201 unique sequences.
+Sample 63 - 47221 reads in 6166 unique sequences.
+Sample 64 - 42453 reads in 6531 unique sequences.
+Sample 65 - 38292 reads in 6219 unique sequences.
+Sample 66 - 65574 reads in 12872 unique sequences.
+Sample 67 - 61822 reads in 9680 unique sequences.
+Sample 68 - 62513 reads in 12313 unique sequences.
+Sample 69 - 99772 reads in 23699 unique sequences.
+Sample 70 - 136703 reads in 26104 unique sequences.
+Sample 71 - 136316 reads in 25817 unique sequences.
+Sample 72 - 62508 reads in 12766 unique sequences.
+Sample 73 - 50907 reads in 10073 unique sequences.
+Sample 74 - 81235 reads in 12376 unique sequences.
+Sample 75 - 72634 reads in 13279 unique sequences.
+Sample 76 - 62046 reads in 12018 unique sequences.
+Sample 77 - 92756 reads in 18601 unique sequences.
+Sample 78 - 72494 reads in 12409 unique sequences.
+
+   selfConsist step 2[1] "dada2 main function run time"
+    user   system  elapsed 
+3677.199  115.059  615.200 
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Warning messages:
+1: Transformation introduced infinite values in continuous y-axis 
+2: Transformation introduced infinite values in continuous y-axis 
+3: Transformation introduced infinite values in continuous y-axis 
+4: Transformation introduced infinite values in continuous y-axis 
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+[1] "Making sequence tables"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+[1] "Merging sequence tables"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+[1] "combined sequence table dimensions"
+[1]    78 45483
+[1] "Slaying Chimeras"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Identified 23581 bimeras out of 45483 input sequences.
+[1] "chimera check time:"
+    user   system  elapsed 
+6952.400   23.398 6992.323 
+[1] "reads retained"
+[1] 0.9848929
+[1] "chimera checked table dimensions"
+[1]    78 21902
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+[1] "Assigning Taxonomy"
+[1] "Taxonomic assignment time is"
+     user    system   elapsed 
+11236.836  1924.969   680.892 
+Warning message:
+In matrix(unlist(strsplit(genus.unq, ";")), ncol = td, byrow = TRUE) :
+  data length [44231] is not a sub-multiple or multiple of the number of rows [7372]
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+[1] "Making useful tables"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] "Total time to process amplicons:"
+     user    system   elapsed 
+24764.428  2143.596 10664.664 

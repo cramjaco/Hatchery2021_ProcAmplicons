@@ -5,12 +5,15 @@ source(here::here("RScripts", "LastMinuteWrangle.R"))
 #metadata <- read_csv(here("Metadata", "jacob_larva2021_metadata.csv"))
 
 
-forward_reads <- here("Rawish",
-                      #paste0("Run", metadata_target01$Run),
-                      metadata_target01$inFile_1)
-reverse_reads <- here("Rawish",
-                      #paste0("Run", metadata_target01$Run),
-                      metadata_target01$inFile_2)
+# forward_reads <- here("Rawdata",
+#                       #paste0("Run", metadata_target01$Run),
+#                       metadata_target01$inFile_1)
+# reverse_reads <- here("Rawdata",
+#                       #paste0("Run", metadata_target01$Run),
+#                       metadata_target01$inFile_2)
+
+forward_reads <- here("Trimmed", paste0(metadata_target01$SamA_1, "_trim.fastq.gz"))
+reverse_reads <- here("Trimmed", paste0(metadata_target01$SamA_2, "_trim.fastq.gz"))
 
 filtered_forward_reads <- here("Filtered", paste0(metadata_target01$SamA_1, ".filtered.fastq.gz"))
 filtered_reverse_reads <- here("Filtered", paste0(metadata_target01$SamA_2, ".filtered.fastq.gz"))

@@ -1,0 +1,181 @@
+/home/jcram/Projects/Hatchery2021_ProcAmplicons
+here() starts at /home/jcram/Projects/Hatchery2021_ProcAmplicons
+[1] "Running 00_Rename_Inator.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: Rcpp
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+On sample: C_5P1B_0P2
+On sample: C4
+On sample: H12
+On sample: XD
+[1] "Running PlotQuality.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Warning messages:
+1: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+2: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+3: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+4: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+5: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+6: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+7: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+8: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+[1] "Running 02_FilterTrim_Inator.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] "Running LearnErrors.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+13627440 total bases in 50472 reads from 1 samples will be used for learning the error rates.
+10094400 total bases in 50472 reads from 1 samples will be used for learning the error rates.
+[1] "total time to learn errors"
+   user  system elapsed 
+173.790   0.948 175.160 
+[1] "Running 04_Dereplicate_Inator.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] "total time to learn dereplicate"
+   user  system elapsed 
+  6.058   0.558   6.642 
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Sample 1 - 50472 reads in 19519 unique sequences.
+Sample 2 - 935 reads in 433 unique sequences.
+Sample 3 - 43783 reads in 7557 unique sequences.
+Sample 4 - 99772 reads in 25221 unique sequences.
+
+   selfConsist step 2Sample 1 - 50472 reads in 20643 unique sequences.
+Sample 2 - 935 reads in 427 unique sequences.
+Sample 3 - 43783 reads in 6445 unique sequences.
+Sample 4 - 99772 reads in 23699 unique sequences.
+
+   selfConsist step 2[1] "dada2 main function run time"
+   user  system elapsed 
+152.063   0.649 153.080 
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Warning messages:
+1: Transformation introduced infinite values in continuous y-axis 
+2: Transformation introduced infinite values in continuous y-axis 
+3: Transformation introduced infinite values in continuous y-axis 
+4: Transformation introduced infinite values in continuous y-axis 
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+Duplicate sequences in merged output.
+[1] "Making sequence tables"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+[1] "Merging sequence tables"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+[1] "combined sequence table dimensions"
+[1]    4 5368
+[1] "Slaying Chimeras"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Identified 3369 bimeras out of 5368 input sequences.
+[1] "chimera check time:"
+   user  system elapsed 
+501.312   0.027 502.540 
+[1] "reads retained"
+[1] 0.9442775
+[1] "chimera checked table dimensions"
+[1]    4 1999
+[1] "Total time to process amplicons:"
+   user  system elapsed 
+954.086   5.431 958.609 

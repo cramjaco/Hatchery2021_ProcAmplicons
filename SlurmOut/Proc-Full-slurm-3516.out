@@ -1,0 +1,43 @@
+/home/jcram/Projects/Hatchery2021_ProcAmplicons
+here() starts at /home/jcram/Projects/Hatchery2021_ProcAmplicons
+[1] "Slaying Chimeras"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: Rcpp
+[1] "Setting global inter-script parameters"
+Identified 3369 bimeras out of 5368 input sequences.
+[1] "chimera check time:"
+   user  system elapsed 
+497.679   0.040 498.899 
+[1] "reads retained"
+[1] 0.9442775
+[1] "chimera checked table dimensions"
+[1]    4 1999
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+[1] "Assigning Taxonomy"
+[1] "Taxonomic assignment time is"
+   user  system elapsed 
+548.280   0.699 550.303 
+Warning message:
+In matrix(unlist(strsplit(genus.unq, ";")), ncol = td, byrow = TRUE) :
+  data length [44231] is not a sub-multiple or multiple of the number of rows [7372]
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+[1] "Making useful tables"
+[1] "Total time to process amplicons:"
+    user   system  elapsed 
+1054.129    1.258 1058.244 

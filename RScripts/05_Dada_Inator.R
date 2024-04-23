@@ -7,11 +7,13 @@ load(here("RDataFiles", "errDf.RData"))
 
 deDf <- inner_join(derepDf %>% select(-data),
            errDf %>% select(-data),
-           by = c("run", "ReadDir")) %>%
+           by = c("Run", "ReadDir")) %>%
   ungroup()
 
-test <- dada(deDf$derep[[1]], deDf$errMod[[1]])
+# test <- dada(deDf$derep[[1]], deDf$errMod[[1]])
 
+# The map is for multiple runs, which aren't happening in the curent version,
+# So it maps through just one thing
 pt0 <- proc.time()
 dadaDf <- deDf %>%
   mutate(dadaOut = map2(.x = derep, .y = errMod, 

@@ -1,0 +1,24 @@
+/home/jcram/Projects/Hatchery2021_ProcAmplicons
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+here() starts at /home/jcram/Projects/Hatchery2021_ProcAmplicons
+Loading required package: Rcpp
+[1] "Setting global inter-script parameters"
+[1] "Assigning Taxonomy"
+Warning message:
+In matrix(unlist(strsplit(genus.unq, ";")), ncol = td, byrow = TRUE) :
+  data length [44231] is not a sub-multiple or multiple of the number of rows [7372]
+[1] "Taxonomic assignment time is"
+   user  system elapsed 
+586.715   4.946 593.061 

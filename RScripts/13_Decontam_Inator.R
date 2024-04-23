@@ -5,7 +5,11 @@ load(here("RDataFiles", "tables_but_as_datafiles.RData"))
 metadata$Type %>% unique()
 
 ## Identify the negatives
-negatives <- metadata %>% filter(Type == "NegativeDNA") %>% pull(Sample0)
+negatives <- metadata %>% 
+  #filter(Type == "NegativeDNA") %>%
+  filter(str_detect(Type, "^Negative")) %>%
+  pull(Sample0) %>% unique() %>%
+  identity()
 
 colnames(asv_tab)
 

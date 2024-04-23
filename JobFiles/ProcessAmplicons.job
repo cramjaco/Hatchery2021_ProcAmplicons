@@ -1,0 +1,16 @@
+#!/bin/bash
+
+## Run from main directory
+
+#SBATCH -A "app=test"
+#SBATCH -J ProcH
+#SBATCH -n 1
+#SBATCH --cpus-per-task=24
+#SBATCH -t 72:00:00
+#SBATCH -p high
+#SBATCH --chdir=.
+#SBATCH --output=SlurmOut/Proc-Full-slurm-%j.out
+
+module load R/4.0.2
+pwd
+Rscript RScripts/ProcessAmplicons.R

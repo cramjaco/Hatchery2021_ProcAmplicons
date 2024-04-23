@@ -1,0 +1,113 @@
+/home/jcram/Projects/Hatchery2021_ProcAmplicons
+here() starts at /home/jcram/Projects/Hatchery2021_ProcAmplicons
+[1] "Running 00_Rename_Inator.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: Rcpp
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+On sample: C_5P1B_0P2
+On sample: C4
+On sample: H12
+On sample: XD
+[1] "Running PlotQuality.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Warning messages:
+1: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+2: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+3: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+4: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+5: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+6: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+7: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+8: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> = "none")` instead. 
+[1] "Running 02_FilterTrim_Inator.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[1] "Running LearnErrors.R"
+[1] "Running LastMinuteWrangle.R"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+[1] "Setting global inter-script parameters"
+Rows: 156 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (13): File, Sample0, Sample, Date, Group, Initials, Tank, Brood#, Tube#,...
+dbl  (2): ReadDir, Run
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Error in `mutate()`:
+! Problem while computing `errMod = map(...)`.
+ℹ The error occurred in group 1: Run = 1, ReadDir = 1.
+Caused by error in `derepFastq()`:
+! Not all provided files exist.
+Backtrace:
+     ▆
+  1. ├─base::source(here("RScripts", "03_LearnErrors_Inator.R"), local = TRUE)
+  2. │ ├─base::withVisible(eval(ei, envir))
+  3. │ └─base::eval(ei, envir)
+  4. │   └─base::eval(ei, envir)
+  5. ├─... %>% ...
+  6. ├─dplyr::mutate(...)
+  7. ├─dplyr:::mutate.data.frame(...)
+  8. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), caller_env = caller_env())
+  9. │   ├─base::withCallingHandlers(...)
+ 10. │   └─mask$eval_all_mutate(quo)
+ 11. ├─purrr::map(...)
+ 12. │ └─.f(.x[[i]], ...)
+ 13. │   └─dada2::learnErrors(...)
+ 14. │     └─dada2::derepFastq(fls[[i]], qualityType = qualityType)
+ 15. │       └─base::stop("Not all provided files exist.")
+ 16. └─base::.handleSimpleError(...)
+ 17.   └─dplyr h(simpleError(msg, call))
+ 18.     └─rlang::abort(...)
+Execution halted

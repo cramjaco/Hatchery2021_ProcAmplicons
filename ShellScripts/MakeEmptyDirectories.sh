@@ -1,6 +1,13 @@
-rm -r QualityPlots
-rm -r Filtered
+rm -rf QualityPlots
+rm -rf Filtered
+rm -rf RawDataFiles
+rm -rf ErrorPlots
+rm -rf Renamed
+rm -rf RunData
+rm -rf Trimmed
+rm -rf Output
 
+mkdir Renamed
 mkdir QualityPlots
 mkdir QualityPlots/Forward
 mkdir QualityPlots/Reverse
@@ -12,3 +19,8 @@ mkdir QualityPlots/Reverse/Run1
 #mkdir QualityPlots/Reverse/Run3
 
 mkdir Filtered
+mkdir RawDataFiles
+mkdir ErrorPlots
+mkdir RunData
+mkdir Trimmed
+mkdir Output

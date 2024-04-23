@@ -1,0 +1,16 @@
+#!/bin/bash
+
+## Run from main directory
+
+#SBATCH -A "app=test"
+#SBATCH -J Slay
+#SBATCH -n 1
+#SBATCH --cpus-per-task=1
+#SBATCH -t 12:00:00
+#SBATCH -p high
+#SBATCH --chdir=.
+#SBATCH --output=SlurmOut/Slay-slurm-%j.out
+
+module load R/4.0.2
+pwd
+Rscript RScripts/10_Slay_Chimeras_Inator.R

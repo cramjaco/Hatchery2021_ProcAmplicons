@@ -16,12 +16,25 @@ sample_info <- tibble(File = list.files(here("Rawdata"))) %>%
 
 metadata0 <- left_join(sample_info, metadata_lexy, by = "Sample")
 
-metadata1 <- metadata0 %>% filter(Group != "Lexy")
+metadata1 <- metadata0 %>% 
+  mutate(Project = case_when(
+    is.na(Group) ~ case_when(
+      str_detect(Sample0, "^D5") ~ "KM2018",
+      Sample0 %in% c("H_E", "H_S", "H_GD", "H_NC") ~ "All",
+      TRUE ~ "Unknown"
+    ),
+    Group == "Jacob" ~ "CB",
+    TRUE ~ Group
+  ))
 
-metadata2 <- metadata1 %>%
+metadata1a <- metadata1 %>% filter(Project != "Lexy")
+
+metadata2 <- metadata1a %>%
   mutate(ReadDir = str_extract(File, "(?<=R)[12]")) %>%
   mutate(Run = 1) %>%
-  mutate(Type = if_else(str_detect(Sample0, "^C\\d$"), "NegativeDNA", "Sample"))
+  mutate(Type = case_when(str_detect(Sample0, "^C\\d$") ~ "NegativeDNA",
+                          Sample0 == "H_NC" ~ "NegativePCR",
+                          TRUE ~ "Sample"))
 
 # samples_to_run <- c("XD", "H12", "C_5P1B_0P2", "C4")
 # 

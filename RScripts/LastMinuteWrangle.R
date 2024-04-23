@@ -31,7 +31,7 @@ if(testrun){
 
 metadata_target <- metadata %>%
   select(Run, Dir = ReadDir, inFile = File, Sam = Sample0) %>%
-  mutate(SamA = paste0(Sam, ".R", Dir)) %>%
+  mutate(SamA = paste0(Sam, "_R", Dir)) %>%
   pass()
   
 
@@ -43,6 +43,6 @@ metadata_target02 <- metadata_target01 %>%
   select(Run, Sam, SamA_1, SamA_2)
 
 metaFilt <- metadata %>% select(Run, ReadDir, Sample0) %>%
-  mutate(filteredPath = here("Filtered", paste0(Sample0, ".R", ReadDir, ".filtered.fastq.gz"))) %>%
+  mutate(filteredPath = here("Filtered", paste0(Sample0, "_R", ReadDir, ".filtered.fastq.gz"))) %>%
   #mutate(derepPath = here("Dereplicated", paste0(Sample0, ".R", ReadDir, ".dereplicated.fastq.gz"))) %>%
   pass()

@@ -1,0 +1,26 @@
+/home/jcram/Projects/Hatchery2021_ProcAmplicons
+[1] "Slaying Chimeras"
+[1] "Running LibrarySet01.R"
+* The project is already synchronized with the lockfile.
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+here() starts at /home/jcram/Projects/Hatchery2021_ProcAmplicons
+Loading required package: Rcpp
+[1] "Setting global inter-script parameters"
+Identified 7861 bimeras out of 10856 input sequences.
+[1] "chimera check time:"
+    user   system  elapsed 
+1781.043    0.199 1785.475 
+[1] "reads retained"
+[1] 0.5251197
+[1] "chimera checked table dimensions"
+[1]    4 2995

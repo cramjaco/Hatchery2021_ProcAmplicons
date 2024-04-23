@@ -1,3 +1,3 @@
 # Enable multithreading
-mt = FALSE
-testrun = TRUE
+mt = TRUE
+testrun = FALSE

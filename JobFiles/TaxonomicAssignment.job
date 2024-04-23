@@ -1,0 +1,17 @@
+#!/bin/bash
+
+## Simple single process job that uses 4 cores
+## Run from main directory
+
+#SBATCH -A "app=test"
+#SBATCH -J Tax
+#SBATCH -n 1
+#SBATCH --cpus-per-task=1
+#SBATCH -t 12:00:00
+#SBATCH -p high
+#SBATCH --chdir=.
+#SBATCH --output=SlurmOut/Tax-slurm-%j.out
+
+module load R/4.0.2
+pwd
+Rscript RScripts/11_TaxonomicAssignment_Inator.R
